@@ -1,0 +1,42 @@
+#main_menu{
+    width: 20%;
+    height: 93.5vh;
+    background-color: #033278;
+    color: #fff;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-menu{
+    border: 1px;
+    width: 100%;
+    font-weight: 700;
+}
+
+.home-menu{
+    display: flex;
+    margin-top: 20px;
+    padding-left: 10px;
+    align-items: center;
+    cursor: pointer;
+    height: 40px;
+   
+}
+
+.home-menu:hover{
+    background-color: #065aadc8;
+    border-radius: 30px;
+    
+}
+
+.home-menu p{
+    margin-left: 18px;
+}

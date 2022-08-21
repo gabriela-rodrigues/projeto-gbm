@@ -1,0 +1,40 @@
+#dashboard{
+    display: flex;
+}
+
+.content-dashboard{
+    width: 80%;
+}
+
+.panel-dashboard{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-search{
+    height: 55%;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #033278;
+    color: white;
+    border: none;
+    font-weight: 500;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.button-search:hover{
+    background-color: #000000;
+}
+
+.title-dashboard{
+    margin-left: 25px;
+}
+
+.table-dashboard{
+    min-height: 300px;
+    margin: 0 25px;
+    margin-bottom: 25px;
+}
